@@ -13,10 +13,12 @@ public class NewClass {
     
     private Integer version;
     private Integer year;
+    private Integer feature;
     
     public NewClass(){
         this.version = 0;
         this.year = 2021;
+        this.feature = 1;
     }
 
     public Integer getVersion() {
