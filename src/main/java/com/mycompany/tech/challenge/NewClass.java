@@ -13,11 +13,13 @@ public class NewClass {
     
     private Integer version;
     private Integer year;
+    /** Documentation of new feature */
     private Integer feature;
     
     public NewClass(){
         this.version = 0;
         this.year = 2021;
+        // It's the first feature
         this.feature = 1;
     }
 
