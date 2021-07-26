@@ -42,4 +42,9 @@ public class NewClass {
         this.year += number;
     }
     
+    
+    public Double summ (double a, double b){
+        return a+b;
+    }
+    
 }
