@@ -12,9 +12,11 @@ package com.mycompany.tech.challenge;
 public class NewClass {
     
     private Integer version;
+    private Integer year;
     
     public NewClass(){
         this.version = 0;
+        this.year = 2021;
     }
 
     public Integer getVersion() {
