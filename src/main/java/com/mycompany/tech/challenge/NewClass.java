@@ -31,6 +31,15 @@ public class NewClass {
         this.version = version;
     }
     
-    
+    /**
+     * Add one number to the actual year
+     * 
+     * @param number Number to add
+     * @author Yeith Valencia
+     * @since 25/07/2021
+     */
+    public void addToYear(int number){
+        this.year += number;
+    }
     
 }
